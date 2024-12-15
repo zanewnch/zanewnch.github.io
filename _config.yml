@@ -1,0 +1,26 @@
+title: Your Site Title
+description: A brief description of your site
+author: Your Name
+
+# 主題設定
+theme: jekyll-theme-minimal
+
+# URL 設定
+baseurl: "" # 如果你的網站不是放在根目錄，請修改此處
+url: "https://zanewnch.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除檔案
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 
