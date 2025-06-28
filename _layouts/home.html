@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }} - {{ page.title }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    .hero { background: #f0f0f0; padding: 2rem; text-align: center; border-radius: 8px; }
+    .content { margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>{{ page.title }}</h1>
+    <p>這是一個自訂首頁範例。</p>
+  </div>
+  <section class="content">
+    {{ content }}
+  </section>
+  <footer style="text-align:center; margin-top:2rem; font-size:0.9em; color:#666;">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+  </footer>
+</body>
+</html>
