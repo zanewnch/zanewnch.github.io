@@ -48,3 +48,6 @@ bundle install
 bundle exec jekyll serve
 開啟 http://127.0.0.1:4000/ 檢查效果。
 或直接 commit & push 到 main，等 GitHub Pages 自動建置後到你的網頁看結果。
+
+
+是的，GitHub Pages 預設支援 Jekyll。若儲存庫包含 Jekyll 設定檔（如 _config.yml）或 Jekyll 結構（如 _posts），GitHub Pages 會自動使用 Jekyll 構建網站。若無 Jekyll 設定，則直接提供靜態檔案（如 index.html）。可透過儲存庫設定禁用 Jekyll。
