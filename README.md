@@ -36,3 +36,15 @@
 ## 授權
 
 本網站內容採用 [MIT 授權條款](LICENSE)。
+
+
+本機預覽：
+安裝 Ruby 與 Bundler（若尚未安裝）
+powershell
+gem install jekyll bundler
+安裝專案相依並啟動伺服器
+powershell
+bundle install
+bundle exec jekyll serve
+開啟 http://127.0.0.1:4000/ 檢查效果。
+或直接 commit & push 到 main，等 GitHub Pages 自動建置後到你的網頁看結果。
