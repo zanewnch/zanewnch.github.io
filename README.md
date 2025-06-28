@@ -51,3 +51,5 @@ bundle exec jekyll serve
 
 
 是的，GitHub Pages 預設支援 Jekyll。若儲存庫包含 Jekyll 設定檔（如 _config.yml）或 Jekyll 結構（如 _posts），GitHub Pages 會自動使用 Jekyll 構建網站。若無 Jekyll 設定，則直接提供靜態檔案（如 index.html）。可透過儲存庫設定禁用 Jekyll。
+
+因為github free account 的關係, github page 只能使用public repository, 為了安全性, 所以我打算使用 vercel.
